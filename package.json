@@ -1,0 +1,29 @@
+{
+  "name": "octoherd-script-add-or-delete-issue-label",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-add-or-delete-issue-label": "./cli.js"
+  },
+  "description": "Add or delete a label for all the issues of a repository",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/oscard0m/octoherd-script-add-or-delete-issue-label",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Oscar Dominguez <dominguez.celada@gmail.com> (https://www.oscardom.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^3.3.3"
+  },
+  "devDependencies": {},
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
